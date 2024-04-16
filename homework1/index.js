@@ -101,6 +101,7 @@ for (let student of studentsData) {
         poGrad[student.grad] = [student]
     }
 }
+console.log(poGrad)
 
 const gradovi = []
 for (let grad in poGrad) {
@@ -110,7 +111,7 @@ for (let grad in poGrad) {
 }
 
 gradovi.sort((a, b) => b.prosek - a.prosek)
+// console.log(gradovi)
 
-console.log(gradovi)
 
 
