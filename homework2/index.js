@@ -121,19 +121,19 @@ const removeBike = async (id) => {
 
 (async () => {
     try {
-        // await addBike("1", "Honda", 2020, 3000)
-        // await addBike("2", "Yamaha", 2021, 6500)
+        await addBike("1", "Honda", 2020, 3000)
+        await addBike("2", "Yamaha", 2021, 6500)
 
-        // const allBikes = await listAllBikes()
-        // console.log(allBikes)
+        const allBikes = await listAllBikes()
+        console.log(allBikes)
         
-        // await updateBike("1", { model: "Ducati", year: 1990 })
+        await updateBike("1", { model: "Ducati", year: 1990 })
 
-        // const oneBike  = await listOneBike("1")
-        // console.log(oneBike)
+        const oneBike  = await listOneBike("1")
+        console.log(oneBike)
 
     
-        // await removeBike("2");
+        await removeBike("2");
 
     } catch (err) {
         console.error("Error:", err);
