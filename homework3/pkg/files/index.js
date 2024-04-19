@@ -19,3 +19,8 @@ const writeData = (data, destination) => {
         })
     })
 }
+
+module.exports = {
+    readData,
+    writeData,
+}

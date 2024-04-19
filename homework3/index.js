@@ -18,6 +18,7 @@ api.post("/bikes", create)
 api.patch("/bikes/:id", update)
 api.delete("/bikes/:id", remove)
 
-api.listen(8000, (err) => {
-    err ? console.error(err) : console.log("Server Started")
+api.listen(8001, (err) => {
+    err ? console.error(err) : console.log("Server started")
 })
+
