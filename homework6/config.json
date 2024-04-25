@@ -1,8 +1,9 @@
 {
     "development": {
-        "port": 10001,
+        "port": 10000,
         "MONGO_USERNAME": "petargrujoski",
-        "MONGO_PASSWORD": "123"
+        "MONGO_PASSWORD": "123",
+        "jwt": "secret"
     },
     "integration": {
         "port": 9000,
